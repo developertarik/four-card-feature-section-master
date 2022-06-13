@@ -3,11 +3,17 @@ body{
     font-family: "Poppins",sans-serif;
     font-weight: 400;
     font-size: 15px;
+    background-color: hsl(0, 0%, 98%);
 }
+img{
+    float:right;
+}
+/*containers*/
 .container{
     display:flex;
     padding: 50px 100px 50px 200px;
     gap: 100px;
+    font-weight: 400;
     align-items: center;
     
 }
@@ -17,7 +23,6 @@ body{
 .one{
     margin-top: 75px;
     font-weight: 200;
-    font-family: "Poppins",sans-serif;
 }
 .paragraph{
     text-align: center;
@@ -27,3 +32,8 @@ body{
     flex-direction: column;
     gap: 20px;
 }
+.container-1-1,.container-2,.container-4{
+    background-color:white;
+    
+}
+
